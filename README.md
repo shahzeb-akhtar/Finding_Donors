@@ -25,9 +25,9 @@ We will also need to have software installed to run and execute a [Jupyter Noteb
 
 **Inital model evaluation:** Random Forest performs better compared to other Decision Tree and GaussianNB.
 
-[inital_accuracy_comparison](screen_shots/initial_accuracy.png)
+![inital_accuracy_comparison](screen_shots/initial_accuracy.png)
 
-[inital_f_score_comparison](screen_shots/initial_f_score.png)
+![inital_f_score_comparison](screen_shots/initial_f_score.png)
 
 **Performannce of optimized Random Forest model**
 - Accuracy: 0.8586
@@ -35,7 +35,7 @@ We will also need to have software installed to run and execute a [Jupyter Noteb
 
 **Feature Weights**
 
-[feature_weight](screen_shots/feature_weight.png)
+![feature_weight](screen_shots/feature_weight.png)
 
 ## Acknowledgements
 
