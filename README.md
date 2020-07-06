@@ -1,4 +1,3 @@
-# Content: Supervised Learning
 ## Project: Finding Donors for CharityML
 
 ## Project Overview
@@ -13,23 +12,35 @@ This project uses the following software and Python libraries:
 - [NumPy](http://www.numpy.org/)
 - [Pandas](http://pandas.pydata.org/)
 - [scikit-learn](http://scikit-learn.org/stable/)
-- [matplotlib](http://matplotlib.org/)
+- [Altair](https://altair-viz.github.io/index.html)
 
 We will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
 
-
 ## Project Files
 
-
-This project contains three files:
-
 - `finding_donors.ipynb`: This is the main file where we will be performing your work on the project.
-- `census.csv`: The project dataset. We'll load this data in the notebook.
-- `visuals.py`: A Python file containing visualization code that is run behind-the-scenes.
+- `census.csv`: The project dataset. We'll load this data in the notebook
+
+## Results
+
+**Inital model evaluation:** Random Forest performs better compared to other Decision Tree and GaussianNB.
+
+[inital_accuracy_comparison](screen_shots/initial_accuracy.png)
+
+[inital_f_score_comparison](screen_shots/initial_f_score.png)
+
+**Performannce of optimized Random Forest model**
+- Accuracy: 0.8586
+- F-Score: 0.7291
+
+**Feature Weights**
+
+[feature_weight](screen_shots/feature_weight.png)
 
 ## Acknowledgements
 
 - [Udacity](https://www.udacity.com/)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Census+Income)
 
 ## Author
 [Shahzeb Akhtar](https://www.linkedin.com/in/shahzebakhtar/)
